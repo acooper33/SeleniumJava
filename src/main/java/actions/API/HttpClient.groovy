@@ -155,8 +155,9 @@ class HttpClient{
             contentType = params.ContentType
         }
 
-        String URLPath = redwood.launcher.Launcher.variables.URL
-        //If 'App Environment' paramater is specified then modify URL from standard one that is used to access affiliate variable to a different one
+        //String URLPath = redwood.launcher.Launcher.variables.URL
+        String URLPath = "https://brightideatest.com"
+                //If 'App Environment' paramater is specified then modify URL from standard one that is used to access affiliate variable to a different one
         if(params."App Environment"){
             if(params."App Environment"=="BI Admin"){
                 switch(URLPath.split("\\.")[1]){

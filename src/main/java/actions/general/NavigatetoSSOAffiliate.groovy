@@ -4,7 +4,7 @@ import actions.selenium.Browser
 
 class NavigatetoSSOAffiliate{
     public static void run(def params){
-        
+        /*
         if((redwood.launcher.Launcher.variables.URL).contains("sandbox")){
             if (params."DomainName".contains("sso")){
             	Browser.Driver.get("https://${params."DomainName"}1.brightideasandbox.com") //added "1", had to create a new affiliate in SB    
@@ -22,5 +22,7 @@ class NavigatetoSSOAffiliate{
             //Browser.Driver.get("https://shefalimysql.brightidea.com")
             Browser.Driver.get(params."DomainName")
         }
+        */
+
     }
 }
