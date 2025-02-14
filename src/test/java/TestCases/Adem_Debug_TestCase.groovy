@@ -1,20 +1,11 @@
+package TestCases
+
+import BaseClasses.TestBase
 import actions.selenium.Browser
-import org.testng.annotations.BeforeSuite
-import org.testng.annotations.AfterMethod
 import org.testng.annotations.Test
 
-class Adem_Debug_TestCase {
-    private static def variables = [:]
+class Adem_Debug_TestCase extends TestBase {
 
-    @BeforeSuite
-    public void beforeState(){
-        variables."URL" = /https:\/\/test.brightideatest.com/
-        variables."Browser" = /Chrome/
-        variables."TestRail_RunName" = null
-        variables."TestRail_ExecutionName" = null
-        variables."CodeEnvironment" = /Default/
-        variables."Database" = null
-    }
     @Test
     public void testcase(){
         Browser.getInstance() // Ensure the Browser instance is created
@@ -31,9 +22,5 @@ class Adem_Debug_TestCase {
         //Set Emoji Dialog
         //new actions.general.SetEmojiDialog().run("Comment":/TestComment/.toString(),"Emoji Name":/thumbs up/.toString())
     }
-    @AfterMethod
-    public void afterState(){
-        Browser.quit();
-    }
+
 }
-import org.testng.annotations.Test

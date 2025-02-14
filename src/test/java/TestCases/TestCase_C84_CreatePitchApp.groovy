@@ -1,3 +1,5 @@
+package TestCases
+
 import actions.API.Utils.CopyAffiliate
 import actions.API.Utils.DeleteAffiliate
 import actions.Utils.SettoLabEnvironment
