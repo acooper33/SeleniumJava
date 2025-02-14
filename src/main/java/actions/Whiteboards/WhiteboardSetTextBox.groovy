@@ -2,8 +2,6 @@ package actions.Whiteboards;
 
 import org.openqa.selenium.interactions.Actions
 import actions.selenium.Browser
-import java.awt.Robot;	
-import java.awt.event.KeyEvent;
 
 class WhiteboardSetTextBox{
     public void run(def params){

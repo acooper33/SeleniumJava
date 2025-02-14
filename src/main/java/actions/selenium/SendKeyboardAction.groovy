@@ -1,8 +1,6 @@
-package actions.selenium;
+package actions.selenium
 
-import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
+
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.Keys
 

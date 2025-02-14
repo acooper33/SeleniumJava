@@ -1,16 +1,10 @@
 package actions.selenium;
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.Keys
 import java.awt.datatransfer.StringSelection
 import java.awt.Toolkit
-import java.awt.datatransfer.Clipboard;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.lang.Process
-import actions.selenium.GetClipboardContent
 
 class SetTextByPasting{
     public static void run(def params){

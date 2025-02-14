@@ -1,6 +1,4 @@
-package actions.Utils;
-
-import actions.selenium.Browser
+package actions.Utils
 
 class NavigateToSystemManager{
     public String run(def params){

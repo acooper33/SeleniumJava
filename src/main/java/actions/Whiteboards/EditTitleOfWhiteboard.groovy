@@ -1,12 +1,7 @@
 package actions.Whiteboards;
 
 import actions.selenium.Click
-import actions.selenium.SetText
 import actions.selenium.SendKeyboardAction
-import actions.Whiteboards.SendKeysToWhiteboard
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-import actions.selenium.utils.Elements
 
 class EditTitleOfWhiteboard{
     public void run(def params){

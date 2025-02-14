@@ -1,14 +1,8 @@
-package actions.general;
+package actions.general
 
-import actions.selenium.SetText
-import actions.selenium.Click
-import actions.selenium.NavigateToURL
-import actions.selenium.MouseOver
-import actions.selenium.Browser
+
 import actions.selenium.*
 import actions.common.SetProfileDropdown
-import actions.selenium.ExplicitWait
-
 
 class Navigate{
     public static void run(def params){

@@ -3,7 +3,6 @@ package actions.SSOLogin;
 import actions.selenium.Click
 import actions.selenium.ExplicitWait
 import actions.selenium.SetText
-import actions.selenium.Browser
 
 class SetSSOLogin{
     public static void run(def params){

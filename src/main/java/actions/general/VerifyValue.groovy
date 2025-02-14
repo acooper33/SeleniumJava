@@ -2,8 +2,6 @@ package actions.general;
 
 import actions.selenium.utils.Elements
 import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-
 
 class VerifyValue{
     public void run(def params){

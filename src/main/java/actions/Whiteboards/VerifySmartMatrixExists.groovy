@@ -1,10 +1,4 @@
-package actions.Whiteboards;
-
-import actions.selenium.Exists
-import actions.selenium.*
-import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import actions.selenium.SetFocus
+package actions.Whiteboards
 
 class VerifySmartMatrixExists{
     public void run(def params){

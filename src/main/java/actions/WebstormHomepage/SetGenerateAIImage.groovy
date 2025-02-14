@@ -2,14 +2,9 @@ package actions.WebstormHomepage;
 
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.Keys
-import actions.selenium.Click
-import actions.selenium.SetText
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
 import org.openqa.selenium.JavascriptExecutor
-import actions.WebstormHomepage.SetActionOnChangeBackgroundModal
-import actions.selenium.SetFocus
-import actions.selenium.Browser
 import actions.selenium.*
     
 class SetGenerateAIImage{

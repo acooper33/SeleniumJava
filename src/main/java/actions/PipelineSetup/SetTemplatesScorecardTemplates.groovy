@@ -2,13 +2,6 @@ package actions.PipelineSetup;
 
 import actions.selenium.Click
 import actions.selenium.ExplicitWait
-import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import org.openqa.selenium.By
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.support.ui.WebDriverWait
-import org.openqa.selenium.support.ui.ExpectedConditions
-import actions.PipelineSetup.SetLeftSideTabInPipelineSetup
 
 class SetTemplatesScorecardTemplates{
     public void run(def params){

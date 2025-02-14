@@ -1,14 +1,11 @@
-package actions.selenium;
+package actions.selenium
 
-import actions.selenium.Browser
+
 import ru.yandex.qatools.ashot.AShot;
-import ru.yandex.qatools.ashot.Screenshot;
-import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
-import java.io.File;
-import org.openqa.selenium.OutputType;
-import javax.imageio.ImageIO;
-import actions.selenium.utils.Elements
-import org.openqa.selenium.Keys
+import ru.yandex.qatools.ashot.Screenshot
+
+import javax.imageio.ImageIO
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

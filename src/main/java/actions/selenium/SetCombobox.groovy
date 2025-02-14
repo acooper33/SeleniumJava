@@ -1,13 +1,9 @@
 package actions.selenium;
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import actions.selenium.Click
-import actions.selenium.SetText
 import org.openqa.selenium.WebElement
-import actions.selenium.MouseOver
 import org.openqa.selenium.Keys
-import java.lang.Character;
+
 //import emoji4j.EmojiUtils
 import org.openqa.selenium.StaleElementReferenceException;
 

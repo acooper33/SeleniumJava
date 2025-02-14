@@ -1,12 +1,10 @@
 package actions.selenium
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.Keys
-import actions.selenium.GetText
 
-class SetText{  
+class SetText{
     public static void run(def params){
         //Text = the text that will typed in (if null, then nothing will happen). <EMPTY> = will just clear everything in there without any value
         //Type of Clear (optional) = Cut (will cut values via keyboard shortcut rather than Clear()), None (will not do clear)

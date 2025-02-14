@@ -1,8 +1,6 @@
 package actions.selenium
 
 import actions.selenium.utils.Elements
-import org.openqa.selenium.JavascriptExecutor
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 

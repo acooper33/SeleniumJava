@@ -5,7 +5,6 @@ import org.json.simple.JSONObject
 import org.json.simple.JSONArray
 import org.json.simple.parser.JSONParser;
 import actions.selenium.GetText
-import actions.Utils.SystemManagerHelper
 import actions.general.Login
 
 class RetrunSystemID{

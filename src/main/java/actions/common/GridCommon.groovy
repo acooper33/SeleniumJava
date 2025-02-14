@@ -3,7 +3,6 @@ package actions.common;
 import actions.selenium.utils.Elements
 import actions.selenium.Browser
 import actions.selenium.Exists
-import org.openqa.selenium.By
 
 class GridCommon{
     public static def RowNumberForValues(def params){

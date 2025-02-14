@@ -4,10 +4,6 @@ import actions.selenium.Click
 import actions.selenium.SetText
 import actions.selenium.SetFocus
 import actions.selenium.SetCombobox
-import actions.selenium.ExecuteJavascript
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-import actions.selenium.utils.Elements 
 
 class WhiteboardSetAIAssist{
     public void run(def params){

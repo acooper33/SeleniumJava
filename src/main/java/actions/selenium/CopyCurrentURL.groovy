@@ -1,6 +1,4 @@
-package actions.selenium;
-
-import actions.selenium.Browser
+package actions.selenium
 
 class CopyCurrentURL{
     public String run(def params){

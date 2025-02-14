@@ -1,7 +1,7 @@
 package actions.WebstormHomepage;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.text.SimpleDateFormat
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import actions.selenium.Browser

@@ -1,7 +1,6 @@
-package actions.selenium;
+package actions.selenium
 
-import actions.selenium.Browser
-import java.io.File;
+
 import org.openqa.selenium.TakesScreenshot;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;

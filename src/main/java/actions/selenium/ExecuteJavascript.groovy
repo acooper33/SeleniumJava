@@ -1,6 +1,6 @@
 package actions.selenium
 
-import actions.selenium.Browser
+
 import org.openqa.selenium.JavascriptExecutor
 
 class ExecuteJavascript{

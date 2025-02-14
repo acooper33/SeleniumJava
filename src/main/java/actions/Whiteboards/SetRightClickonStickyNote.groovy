@@ -1,11 +1,7 @@
 package actions.Whiteboards;
 
 import actions.selenium.*
-import actions.selenium.Browser
 import org.openqa.selenium.interactions.Actions
-import actions.selenium.Exists
-import actions.selenium.SetFocus
-import actions.selenium.SetCombobox
 import screens.WhiteboardLocators
 
 

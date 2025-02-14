@@ -1,6 +1,6 @@
-package actions.common;
+package actions.common
 
-import actions.selenium.SetText
+
 import actions.selenium.Click
 import actions.selenium.SetCheckBox
 import actions.selenium.SetText
@@ -8,10 +8,6 @@ import actions.selenium.SetFocus
 import actions.selenium.Exists
 import java.nio.file.Paths
 import actions.selenium.SendKeys
-import org.openqa.selenium.interactions.Actions
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-import actions.selenium.utils.Elements
 import org.openqa.selenium.StaleElementReferenceException;
 import actions.selenium.SetReactTags
 

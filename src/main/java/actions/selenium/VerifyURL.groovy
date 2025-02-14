@@ -1,8 +1,5 @@
 package actions.selenium
 
-import actions.selenium.Browser
-
-
 class VerifyURL{
     public String run(def params){
         if(params.Value){

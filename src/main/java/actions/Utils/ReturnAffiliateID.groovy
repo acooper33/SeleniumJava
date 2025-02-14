@@ -3,7 +3,7 @@ package actions.Utils;
 import actions.selenium.Browser
 import java.util.regex.Pattern
 import java.util.regex.Matcher
-import actions.Utils.SystemManagerHelper
+
 import actions.selenium.NavigateToURL
 
 class ReturnAffiliateID{

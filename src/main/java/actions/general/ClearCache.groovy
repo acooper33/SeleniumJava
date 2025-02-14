@@ -2,13 +2,10 @@ package actions.general;
 
 import actions.selenium.Browser
 import actions.selenium.NavigateToURL
-import org.openqa.selenium.JavascriptExecutor
-import actions.selenium.ExecuteJavascript
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.SearchContext
-import actions.selenium.Click
 
 class ClearCache{
     public void run(def params){

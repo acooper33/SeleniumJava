@@ -4,13 +4,8 @@ import actions.selenium.Click
 import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
-import java.awt.Robot;	
-import java.awt.event.KeyEvent;	
 import org.openqa.selenium.Point
-import java.awt.event.InputEvent;	
-import java.awt.event.KeyEvent;
 import org.openqa.selenium.interactions.Actions
-import org.openqa.selenium.JavascriptExecutor
 
 class AddStampToWhiteboard{
     public void run(def params){

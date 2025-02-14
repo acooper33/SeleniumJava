@@ -2,12 +2,7 @@ package actions.Whiteboards;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import actions.selenium.Browser;
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.By;
-import java.awt.Robot;	
-import java.awt.event.KeyEvent;
-import org.openqa.selenium.JavascriptExecutor
+import actions.selenium.Browser
 
 class SendKeysToWhiteboard {
     public static void run(def params) {

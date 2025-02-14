@@ -4,13 +4,10 @@ import actions.selenium.SetText
 import actions.selenium.SendKeyboardAction
 import actions.selenium.SetFocus
 import actions.selenium.Click
-import actions.common.AppsCommon
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
 import actions.selenium.MouseOver
 import actions.selenium.Browser
-import org.openqa.selenium.Keys
-
 
 class SetRightSideControlsWhiteboard{
     public void run(def params){

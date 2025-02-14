@@ -1,12 +1,6 @@
 package actions.general;
 
 import actions.selenium.Click
-import actions.selenium.SetText
-import actions.selenium.SetFocus
-import actions.selenium.SendKeys
-import actions.selenium.SetTextByPasting
-import actions.selenium.Browser
-import org.openqa.selenium.JavascriptExecutor
 import actions.Whiteboards.SendKeysToWhiteboard
 
 class SendSlackMessageToBrightideaQAApp{

@@ -1,18 +1,10 @@
-package actions.Whiteboards;
+package actions.Whiteboards
 
-import actions.selenium.Click
-import actions.selenium.MouseOver
-import actions.selenium.DragAndDrop
+
 import actions.selenium.utils.Elements
-import org.openqa.selenium.JavascriptExecutor
 import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
-import actions.selenium.SetFocus
-import java.awt.Robot;	
-import org.openqa.selenium.Point
-import java.awt.event.InputEvent;	
-import java.awt.event.KeyEvent;
 
 class AddStickyNoteToWhiteboard{
     public void run(def params){

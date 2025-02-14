@@ -9,14 +9,12 @@ import org.apache.poi.ss.usermodel.Sheet
 import org.apache.poi.ss.usermodel.Workbook
 import org.apache.poi.ss.usermodel.DateUtil
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
-import org.openqa.selenium.support.ui.FluentWait;
-import actions.selenium.Browser
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.FluentWait
+
 import java.time.Duration;
 import com.google.common.base.Function
 //import java.util.concurrent.TimeoutException
 //import org.openqa.selenium.support.ui.ExpectedConditions;
-import java.io.FileNotFoundException
 
 class VerifyFileData{
     def bFound = false

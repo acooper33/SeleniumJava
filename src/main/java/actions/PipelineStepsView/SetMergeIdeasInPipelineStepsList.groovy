@@ -1,12 +1,8 @@
 package actions.PipelineStepsView;
 
 import actions.selenium.Click
-import actions.selenium.SetText
 import actions.selenium.GetText
-import actions.selenium.SetCheckBox
 import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.By
 import actions.selenium.utils.Elements
 
 class SetMergeIdeasInPipelineStepsList{

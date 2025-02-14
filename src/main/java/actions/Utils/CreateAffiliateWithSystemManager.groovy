@@ -1,12 +1,9 @@
-package actions.Utils;
+package actions.Utils
 
-import actions.selenium.NavigateToURL
+
 import actions.SSOLogin.SetSSOLogin
 import actions.selenium.SetText
 import actions.selenium.Click
-import actions.Utils.SystemManagerHelper
-import actions.Utils.ReturnAffiliateID
-import actions.Utils.RetrunSystemID
 import actions.selenium.Browser
 import actions.general.NavigatetoSSOAffiliate
 import actions.general.SetLicenseManager

@@ -1,6 +1,6 @@
 package actions.selenium
 
-import actions.selenium.Browser
+
 import actions.selenium.utils.Elements
 
 class SwitchToFrame{

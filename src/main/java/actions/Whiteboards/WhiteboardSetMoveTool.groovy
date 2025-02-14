@@ -1,9 +1,6 @@
 package actions.Whiteboards;
 
 import actions.selenium.Click
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
-import actions.selenium.utils.Elements
 
 class WhiteboardSetMoveTool{
     public void run(def params){

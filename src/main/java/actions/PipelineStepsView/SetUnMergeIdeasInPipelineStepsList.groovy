@@ -1,8 +1,6 @@
 package actions.PipelineStepsView;
 
 import actions.selenium.utils.Elements
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.By
 import actions.selenium.Browser
 import actions.selenium.Click
 import actions.selenium.GetText

@@ -3,12 +3,10 @@ package actions.general;
 import actions.selenium.Click
 import actions.selenium.SetCheckBox
 import actions.selenium.SetText
-import actions.selenium.SetFocus
 import actions.selenium.ExecuteJavascript
 import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
-import actions.selenium.Exists
 import actions.selenium.VerifyText
 
 class SetLicenseManager{

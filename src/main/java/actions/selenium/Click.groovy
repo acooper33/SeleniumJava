@@ -1,8 +1,6 @@
 package actions.selenium
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.StaleElementReferenceException;
@@ -35,7 +33,7 @@ class Click{
                 //If its a type of click which is Javascript, then no need to go through isDisplayed process since it might be hidden
                 if(params."Type of Click"=="Javascript"){
                     println("Javascript Click Recognized")
-                    JavascriptExecutor executor = (JavascriptExecutor) Browser.Driver 
+                    JavascriptExecutor executor = (JavascriptExecutor) Browser.Driver
                     executor.executeScript("arguments[0].click();", element)
                     return
                 }
@@ -68,7 +66,7 @@ class Click{
                     sleep(2000)        
                 }
                 println("Click Failed, going to try again: ${iTimeout}")
-                element = Elements.find(params,Browser.Driver)          
+                element = Elements.find(params,Browser.Driver)
             }
         }    
         }

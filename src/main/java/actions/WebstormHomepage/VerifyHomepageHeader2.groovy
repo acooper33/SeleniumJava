@@ -1,9 +1,8 @@
-package actions.WebstormHomepage;
+package actions.WebstormHomepage
 
-import actions.selenium.Exists
+
 import actions.selenium.*
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 
 class VerifyHomepageHeader2{

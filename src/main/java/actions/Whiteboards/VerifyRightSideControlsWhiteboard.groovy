@@ -5,9 +5,6 @@ import actions.selenium.VerifyText
 import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.By
-import java.text.DecimalFormat
-import java.lang.*
-import java.math.RoundingMode
 import screens.WhiteboardLocators
 
 class VerifyRightSideControlsWhiteboard{

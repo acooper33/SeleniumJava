@@ -1,7 +1,6 @@
 package actions.Webstorm;
 
 import actions.selenium.Exists
-import actions.selenium.MouseOver
 import actions.selenium.SetFocus
 import actions.selenium.utils.Elements
 import actions.selenium.utils.VerifyUniqueItems

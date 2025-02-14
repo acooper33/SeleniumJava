@@ -3,7 +3,6 @@ package actions.general;
 //import actions.selenium.Exists
 import actions.selenium.utils.Elements
 import actions.selenium.Browser
-import org.openqa.selenium.WebElement
 
 class VerifyMessage{
     public void run(def params){

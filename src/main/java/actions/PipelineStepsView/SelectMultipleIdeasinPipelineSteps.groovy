@@ -1,9 +1,7 @@
-package actions.PipelineStepsView;
+package actions.PipelineStepsView
 
-import java.lang.String
+
 import actions.selenium.Browser
-import actions.selenium.utils.Elements
-import org.openqa.selenium.interactions.Action
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.Keys
 import actions.selenium.Click

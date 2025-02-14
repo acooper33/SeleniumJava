@@ -1,9 +1,7 @@
-package actions.common;
+package actions.common
 
-import actions.selenium.Click
+
 import actions.selenium.*
-import actions.WebstormHomepage.SetActionOnChangeBackgroundModal
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
 

@@ -1,18 +1,13 @@
-package actions.general;
+package actions.general
 
-import actions.selenium.Click
-import actions.general.Navigate
-import actions.selenium.MouseOver
-import actions.selenium.SetFocus
-import actions.selenium.NavigateToURL
-import actions.selenium.Browser
-import org.openqa.selenium.interactions.Actions
-import actions.selenium.utils.Elements
-import actions.selenium.Exists
-import org.openqa.selenium.JavascriptExecutor
-import actions.selenium.ExplicitWait
-import actions.selenium.*
+
 import actions.PipelineSetup.SetLeftSideTabInPipelineSetup
+import actions.selenium.Browser
+import actions.selenium.Click
+import actions.selenium.Exists
+import actions.selenium.ExplicitWait
+import actions.selenium.MouseOver
+import actions.selenium.NavigateToURL
 
 class NavigateWebStormAdminBar{
     public static void run(def params){
@@ -23,7 +18,7 @@ class NavigateWebStormAdminBar{
             case "Memo Post Idea":
             	def currentURL = Browser.Driver.getCurrentUrl().split(".com")[0]
             	def initiativeName = params."WebStorm Name".replaceAll("\\s","")
-            	NavigateToURL.run(URL:currentURL+".com/"+initiativeName+"/submit")
+				NavigateToURL.run(URL:currentURL+".com/"+initiativeName+"/submit")
             	break
             case "Memo Idea Boards":
 				def currentURL = Browser.Driver.getCurrentUrl().split(".com")[0]
@@ -37,7 +32,7 @@ class NavigateWebStormAdminBar{
             	break
             case "Post Idea":
             	GoToWebStormHome(params)
-            	if(Exists.run(ID:"//*[@id='hh-buttons']/A[1]")==0) { 
+            	if(Exists.run(ID:"//*[@id='hh-buttons']/A[1]")==0) {
                 	Click.run(ID:"//*[@class='nav-desktop']//*[contains(@href,'submit')]", "Type of Click":"Javascript")
                 } else 
                     Click.run(ID:"//*[@id='hh-buttons']/A[1]", "Type of Click":"Javascript")
@@ -152,7 +147,7 @@ class NavigateWebStormAdminBar{
             	sleep(2000)
             	break
             case "Create Memo":
-            	MouseOver.run(ID:"//*[text()='CREATE A MEMO']/..")
+				MouseOver.run(ID:"//*[text()='CREATE A MEMO']/..")
                 Click.run(ID:"//*[contains(@class,'nav-children-visible')]//*[contains(@href,'memo/create') and text()='Create Memo']", "Type of Click":"Javascript")
             	break
             case "Memo Team Site":
@@ -179,7 +174,7 @@ class NavigateWebStormAdminBar{
     public static void GoToWebStormHome(def params){
         Navigate.run("Area to Navigate to":"Home")
         //sleep(3000)
-        ExplicitWait.run(ID:"//*[@id='navbar']")
+		ExplicitWait.run(ID:"//*[@id='navbar']")
         def currentURL = Browser.Driver.getCurrentUrl()
         switch(params."WebStorm Name"){
             case "Custom App":

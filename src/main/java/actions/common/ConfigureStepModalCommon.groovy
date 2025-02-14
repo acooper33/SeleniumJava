@@ -3,10 +3,7 @@ package actions.common;
 import actions.selenium.SetText
 import actions.selenium.Click
 import actions.selenium.SetCheckBox
-import actions.selenium.SelectItem
 import actions.selenium.SetFocus
-import actions.PipelineStepsView.SetStepDropdown
-import actions.common.AppsCommon
 import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.Keys
 import actions.selenium.Browser

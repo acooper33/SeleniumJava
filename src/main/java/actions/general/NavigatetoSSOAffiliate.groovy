@@ -1,6 +1,4 @@
-package actions.general;
-
-import actions.selenium.Browser
+package actions.general
 
 class NavigatetoSSOAffiliate{
     public static void run(def params){

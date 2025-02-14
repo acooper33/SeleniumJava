@@ -4,13 +4,6 @@ import actions.selenium.SetText
 import actions.selenium.Click
 import actions.common.AppsCommon
 import actions.selenium.SetCombobox
-import org.openqa.selenium.WebElement
-import actions.selenium.Browser
-import actions.selenium.utils.Elements
-import actions.selenium.SetTextByPasting
-import actions.selenium.Refresh
-import actions.selenium.SetCheckBox
-import org.openqa.selenium.StaleElementReferenceException;
 import screens.ReactFormDifferentFieldLocators
 
 class SetQuickAddMemoorIdea{

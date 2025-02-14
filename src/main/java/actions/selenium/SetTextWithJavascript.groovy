@@ -1,8 +1,6 @@
 package actions.selenium;
 import org.openqa.selenium.WebElement
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import actions.selenium.ExecuteJavascript
 import org.openqa.selenium.JavascriptExecutor
 /*
 Inputs

@@ -1,7 +1,7 @@
-package actions.PipelineStepsView;
-import actions.selenium.utils.Elements
+package actions.PipelineStepsView
+
+
 import actions.selenium.Browser
-import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.By
 import actions.selenium.ExplicitWait
@@ -14,7 +14,7 @@ class ReturnAllCompaniesfromScoutAppAIModal{
         if(params."Company or Description"=="Company"){
             allList = Browser.Driver.findElements(By.xpath("//*[contains(@class,'f-import-with-ai-results-item-wrapper')]/DIV//*[contains(@class,'f-import-with-ai-results-item-name')]"))
         } else {
-           allList = Browser.Driver.findElements(By.xpath("//*[contains(@class,'f-import-with-ai-results-item-wrapper')]/DIV//*[contains(@class,'f-import-with-ai-results-item-desc')]"))    
+           allList = Browser.Driver.findElements(By.xpath("//*[contains(@class,'f-import-with-ai-results-item-wrapper')]/DIV//*[contains(@class,'f-import-with-ai-results-item-desc')]"))
         }
         List<String> companyList = new ArrayList<>()
         for (int i = 0; i < allList.size(); i++) {

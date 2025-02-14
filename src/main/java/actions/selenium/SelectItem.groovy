@@ -2,8 +2,6 @@ package actions.selenium;
 
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
-import actions.selenium.Click
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.ui.Select
 

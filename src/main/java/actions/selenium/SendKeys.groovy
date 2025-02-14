@@ -1,11 +1,8 @@
 package actions.selenium
 
 import actions.selenium.utils.Elements
-import actions.selenium.Browser
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.Keys
-import groovy.lang.Binding
-import groovy.lang.GroovyShell
+
 class SendKeys{
 
     public static void run(def params){
