@@ -5,6 +5,8 @@ import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
 import groovyx.net.http.Method
 import groovy.json.JsonSlurper
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 
 class HttpClient{
     //Type = GET, PUT, POST, DELETE
@@ -23,6 +25,7 @@ class HttpClient{
     def public static Headers = [:]
     
     public static client = null
+    private static final Logger log = LoggerFactory . getLogger ( HttpClient . class ) ;
     public static createHttpClient(){
         client = new RESTClient()
         client.ignoreSSLIssues()

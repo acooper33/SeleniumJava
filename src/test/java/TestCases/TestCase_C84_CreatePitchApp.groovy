@@ -32,7 +32,7 @@ class TestCase_C84_CreatePitchApp{
         // Need to write a replacement for https://rwhq2.brightidea.cloud/index.html?action=58123c20fa4ee77809f468f6&project=Brightidea
         // This Basestate action Description:
         // General basestate: Copy Master Affiliate and login as bi.adminuser1@brightidea.com by default unless otherwise specified for 'Username Email' field
-        //Action58123c20fa4ee77809f468f6([:])
+        Action58123c20fa4ee77809f468f6([:])
 
         //Navigate
         new Navigate().run("Area to Navigate to":/Apps/.toString())
