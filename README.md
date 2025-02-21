@@ -15,8 +15,13 @@ Technologies currently included:
 * Maven for dependency management
 
 Required to get up and running:
+* Cucumber
+  * Additional layer intended to align product and technical employees.
+  * Additional layer makes maintenance and writing new cases slower
+  * May help let technical people write testcases
+* Can required parameters be made visible when calling an action/class
 * Running on Linux Agent
-  * Updated Browser.groovy
+  * Updated Browser.groovy to Apply properties to chromedriver
 * Launcher
   * Github actions and workflows to setup AWS agents and launch testcases
     * https://docs.github.com/en/actions/about-github-actions/understanding-github-actions
@@ -25,14 +30,12 @@ Required to get up and running:
 * Reporting Solution
   * Send reports to testrail?
   * Use RedwoodHQ to control runs and manage reports?
+    * Maybe keep RWHQ for regression runs and develop locally in intellij
+  * testng emailable report :(
 * Image Storage
   * Images aren't supposed to be stored in Git, they should be stored in AWS instead
 
 Other potential items that can be integrated:
-* Cucumber
-  * Additional layer intended to align product and technical employees. 
-  * Additional layer makes maintenance and writing new cases slower
-  * May help let technical people write testcases
 * Parallel Execution?
   * Selenium Grid
 * Visual Comparison Tools
