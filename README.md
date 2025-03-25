@@ -27,6 +27,7 @@ Required to get up and running:
     * https://docs.github.com/en/actions/about-github-actions/understanding-github-actions
     * https://www.blazemeter.com/blog/selenium-github
   * Jenkins to setup AWS agents and launch testcases
+  * RedwoodHQ Server
 * Reporting Solution
   * Send reports to testrail?
   * Use RedwoodHQ to control runs and manage reports?
