@@ -2,6 +2,7 @@ package actions.API.Utils;
 
 import actions.API.HttpClient
 import actions.API.Utils.BIAdminLogin
+import utils.Settings
 
 class CopyAffiliate{
     public String run(def params){
@@ -13,7 +14,8 @@ class CopyAffiliate{
         //Define affiliate name to be created, use current time in miliseconds to keep it unique
         def name = "auto"+System.currentTimeMillis().toString()
         def body = [:]
-        def URLPath = redwood.launcher.Launcher.variables.URL
+        //def URLPath = redwood.launcher.Launcher.variables.URL
+        def URLPath  = Settings.getProperty("environment.url");
         def qaSourceId,sandboxSourceId
         
         

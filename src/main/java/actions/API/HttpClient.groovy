@@ -7,6 +7,7 @@ import groovyx.net.http.Method
 import groovy.json.JsonSlurper
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import utils.Settings
 
 class HttpClient{
     //Type = GET, PUT, POST, DELETE
@@ -159,11 +160,12 @@ class HttpClient{
         }
 
         //String URLPath = redwood.launcher.Launcher.variables.URL
-        String URLPath = "https://brightideatest.com"
+        String URLPath = Settings.getProperty("environment.url");
                 //If 'App Environment' paramater is specified then modify URL from standard one that is used to access affiliate variable to a different one
         if(params."App Environment"){
             if(params."App Environment"=="BI Admin"){
-                switch(URLPath.split("\\.")[1]){
+                String urlpathelement = URLPath.split("\\.")[0]
+                switch(urlpathelement){
                     case "brightideatest":
                     	URLPath = "https://test.brightideatest.com"
                     	break
